@@ -1,0 +1,144 @@
+
+@media(max-width: 1199.98px){
+    /* slider part */
+    .our-btn{
+        padding: 12px 14px;
+        margin: 0 12px ;
+    }
+    .para2{
+        margin: 13px 0 40px;
+    }
+    /* we do */
+    .do-img img{
+        max-width: 120%;
+    }
+    /* counter up */
+    .counter-box{
+        height: 160px;
+        width: 160px;
+    }
+    .counter-box i{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .counter-box span{
+        font-size: 15px;
+    }
+}
+@media (max-width:1080px) {
+    /* slider part */
+    .slider-content h2{
+        font-size: 28px;
+    }
+    .our-btn{
+        padding: 8px 10px;
+        margin: 0 10px ;
+    }
+    .para2{
+        font-size: 13px;
+        margin: 10px 0 25px;
+    }
+    .about-area{
+        margin-top: -60px;
+    }
+
+}
+
+/* ========== @media (max-width: 991.98px) { ... }========= */
+@media (max-width: 991.98px) { 
+    /* top area */
+    .top-content .left_part ul{
+        display: block;
+    }
+    .top-content .right_part ul{
+        height: 100%;
+        align-items: center;
+    }
+    .right_part ul li{
+        font-size: 20px;
+    }
+    .menu_area .navbar-light .navbar-nav li {
+       
+    }
+    /* menu area */
+    .search{
+        display: none;
+    }
+   .additional-form{
+       display: block;
+   }
+ }
+
+/* ============ (max-width:991.98px) and (min-width:768px)========*/
+ @media only screen and (max-width:991.98px) and (min-width:768px) {
+    /* slider part */
+    .our-bullet{
+        bottom: 8px;
+    }
+    /* about area */
+    .about-area{
+        margin-top: 0px;
+    }
+    /* blog area */
+    .mini-blog .blog-title h4{
+        font-size: 14px;
+    }
+    .mini-blog .blog-title p{
+        font-size: 12px;
+    }
+    /* we do */
+    .do-img img{
+        max-width: 120%;
+        margin-top: 100px;
+    }
+    /* tab area */
+    .tab-area p{
+        font-size: 14px;
+    }
+    .tab-content .tab-item h2{
+        font-size: 20px;
+    }
+    /* skill area */
+    .skill-area .skill h3{
+        font-size: 22px;
+    }
+    .skill-area .skill .pie{
+        size: 22px;
+    }
+    /* team area */
+    .team-member:hover .team-content{
+        transform: translateY(-50%);
+    }
+    .team-content h3{
+        font-size: 20px;
+    }
+    .team-content p{
+        font-size: 14px;
+    }
+    .team-social ul{
+        padding: 5px 0px;
+    }
+    .team-social ul li a i{
+        padding: 0 6px;
+    }
+     /* counter up */
+     .counter-box{
+        height: 120px;
+        width: 120px;
+    }
+    .counter-box h1{
+        font-size: 25px;
+    }
+    .counter-box i{
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .counter-box span{
+        font-size: 14px;
+    }
+ }
+
+/* ======== (max-width:767.98px) and (min-width:576px)======== */
+ @media only screen and (max-width:767.98px) and (min-width:576px){
+
+ }

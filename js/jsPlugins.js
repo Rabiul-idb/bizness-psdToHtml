@@ -32,8 +32,12 @@ $(document).ready(function(){
         //================ for circle progress bar =============
 
         // 'pie' is class name div
-        const circle = new CircularProgressBar("pie");
-        circle.initial();
+       
+            const circle = new CircularProgressBar("pie");
+            circle.initial();
+       
+       
+        
         // all property for configaration of the plugin from: https://github.com/tomik23/circular-progress-bar
 
          // =================owl carousel plugin ======================   
@@ -67,20 +71,7 @@ $(document).ready(function(){
         });
          
 
-//      //================ menu bar =============
-     
-//      $('.navbar-nav li').click(function(){
-//          $(this).addClass('active');
-//          $(this).siblings().removeClass('active');
-//      });
 
-
-//       // ================== scrool top =============
-//  $('.scroll-top').click(function(){
-//     $('html,body').animate({
-//         scrollTop: 0,
-//     },3000);
-//   });
     
 });
 
