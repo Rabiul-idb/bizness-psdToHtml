@@ -856,6 +856,9 @@ body{
 .big-footer .follow-us a i{
    margin-right: 10px; 
 }
+.big-footer hr{
+    display: none;
+}
   /* ============== small footer ============ */
 .small-footer{
     background-color: #16265a;

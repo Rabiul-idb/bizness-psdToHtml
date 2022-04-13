@@ -38,6 +38,7 @@
         font-size: 13px;
         margin: 10px 0 25px;
     }
+    /* about area */
     .about-area{
         margin-top: -60px;
     }
@@ -140,5 +141,126 @@
 
 /* ======== (max-width:767.98px) and (min-width:576px)======== */
  @media only screen and (max-width:767.98px) and (min-width:576px){
-
+    /* slider part */
+    .our-bullet{
+       display: none;
+    }
+    .our-btn{
+        padding: 0 5px;
+        margin: 2px 5px ;
+    }
+    .para1{
+        display: none;
+    }
+    .slider-content h2{
+        font-size: 25px;
+    }
+    .para2{
+        font-size: 13px;
+        margin: 10px 0 10px;
+    }
+    .slider-content{
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* about area */
+    .about-area{
+        margin-top: 10px;
+    }
+    /* do part */
+    .do-img img{
+        margin-bottom: 0;
+    }
+    /* theme */
+    .theme-content h3{
+      font-size: 24px;
+    }
+    /* team area */
+    .team-member{
+        margin: 5px 0;
+    }
+    /* skill area */
+    .skill{
+        margin: 5px 0;
+    }
+    /* blog area */
+    .d-mini{
+        display: flex;
+    }
+    .mini-blog{
+        margin: 0 5px;
+    }
+    .mini-blog .blog-title h4{
+        font-size: 14px;
+    }
+    .mini-blog .blog-title p{
+        font-size: 12px;
+    }
+    /* counter up */
+    .counter-box{
+        height: 140px;
+        width: 140px;
+    }
+    .counter-box h1{
+        font-size: 25px;
+    }
+    .counter-mt{
+        margin-top: 70px;
+    }
+    /* big footer */
+    .big-footer hr{
+        display: block;
+    }
  }
+
+ /* ======= max-width: 575.98px ================ */
+ @media (max-width:575.98px){
+   
+    /* slider part */
+   .our-bullet{
+    display: none;
+    }
+    .our-btn{
+        padding: 0 5px;
+        margin: 2px 5px ;
+    }
+    .para1{
+        display: none;
+    }
+    .slider-content h2{
+        font-size: 25px;
+    }
+    .para2{
+        font-size: 13px;
+        margin: 10px 0 10px;
+    }
+ 
+    /* about */
+    .about-area{
+        margin-top: 10px;
+    }
+    /* do part */
+    .do-img img{
+        margin-bottom: 0;
+    }
+    /* theme */
+    .theme-content h3{
+        font-size: 20px;
+    }
+    /* team area */
+    .team-member{
+        margin-bottom: 10px;
+    }
+    /* counter up */
+    .counter-box{
+        height: 120px;
+        width: 120px;
+        margin-bottom: 60px;
+       padding-top: 30px;
+    }
+    .counter-box h1{
+        font-size: 20px;
+    }
+    
+}
